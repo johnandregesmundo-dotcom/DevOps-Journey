@@ -1,0 +1,5 @@
+Juan,DevOps,50000
+Maria,Developer,60000
+Pedro,DevOps,55000
+Ana,Manager,80000
+Luis,Developer,58000
