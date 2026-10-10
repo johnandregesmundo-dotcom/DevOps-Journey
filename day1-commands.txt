@@ -1,0 +1,35 @@
+DAY 1: BASIC LINUX COMMANDS (with Tagalog explanation)
+======================================================
+
+NAVIGATION (1-5)
+----------------
+pwd                 - Print Working Directory. Ipinapakita kung nasaan ka sa file system.
+ls                  - List. Tingnan ang mga files at folders sa current directory.
+ls -la              - List All Long. Tingnan LAHAT (pati hidden files) nang detalyado.
+cd /                - Change Directory to root. Pumunta sa root ng filesystem.
+cd ~                - Change Directory to home. Bumalik sa home folder mo.
+
+FILE OPERATIONS (6-10)
+----------------------
+touch file.txt      - Gumawa ng empty file.
+mkdir myfolder      - Make Directory. Gumawa ng bagong folder.
+cp file1 file2      - Copy. Kopyahin ang file1 papuntang file2.
+mv file1 folder/    - Move. Ilipat o i-rename ang file.
+rm file.txt         - Remove. Burahin ang file (WALANG UNDO!).
+rm -r folder        - Remove Recursive. Burahin ang folder pati laman.
+
+READING FILES (11-15)
+---------------------
+echo "text" > file  - Gumawa ng file na may content (o i-overwrite).
+cat file.txt        - Concatenate. Ipakita ang buong laman ng file.
+head file.txt       - Ipakita ang unang 10 lines.
+tail file.txt       - Ipakita ang huling 10 lines.
+less file.txt       - Paginated view. Scroll pataas/baba (press 'q' to quit).
+
+SYSTEM INFO (16-20)
+-------------------
+whoami              - Ipakita kung sinong user ka ngayon.
+date                - Ipakita ang current date at time.
+uname -a            - Ipakita ang system info (kernel, OS, arch).
+df -h               - Disk Free, Human-readable. Tingnan ang disk space.
+free -h             - Tingnan ang memory (RAM) usage, human-readable.
