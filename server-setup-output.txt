@@ -1,0 +1,81 @@
+==========================================
+  🚀 DevOps Server Setup Script
+==========================================
+
+[1/5] Updating system packages...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://ph.archive.ubuntu.com/ubuntu resolute InRelease
+Hit:2 http://ph.archive.ubuntu.com/ubuntu resolute-updates InRelease
+Hit:3 http://ph.archive.ubuntu.com/ubuntu resolute-backports InRelease
+Hit:4 http://security.ubuntu.com/ubuntu resolute-security InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+18 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+Get more security updates through Ubuntu Pro with 'esm-apps' enabled:
+  gstreamer1.0-plugins-ugly libsrt1.5-gnutls restic libass9 libavcodec62
+  libavfilter11 libavutil60 libswscale9 libswresample6 libavformat62
+Learn more about Ubuntu Pro at https://ubuntu.com/pro
+Not upgrading yet due to phasing:
+  dnsmasq-base     libsss-certmap0    sssd-ad         sssd-krb5-common
+  libipa-hbac0t64  libsss-idmap0      sssd-ad-common  sssd-ldap
+  libmp3lame0      libsss-nss-idmap0  sssd-common     sssd-proxy
+  libnss-sss       python3-sss        sssd-ipa
+  libpam-sss       sssd               sssd-krb5
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 18
+[2/5] Installing essential tools...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (8.18.0-1ubuntu2.7).
+wget is already the newest version (1.25.0-2ubuntu4.4).
+git is already the newest version (1:2.53.0-1ubuntu1).
+vim is already the newest version (2:9.1.2141-1ubuntu4.9).
+htop is already the newest version (3.4.1-5build2).
+tree is already the newest version (2.3.1-1).
+net-tools is already the newest version (2.10-2ubuntu1).
+Solving dependencies...
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 18
+[3/5] Creating project directories...
+/home/joaquin/devops-projects
+├── docker
+├── kubernetes
+├── scripts
+└── terraform
+
+5 directories, 0 files
+[4/5] Configuring Git...
+[5/5] Setup complete!
+
+✅ Welcome to your DevOps environment!
+Directories created:
+total 24
+drwxrwxr-x  6 joaquin joaquin 4096 Oct 10 11:58 .
+drwxr-x--- 19 joaquin joaquin 4096 Oct 10 18:25 ..
+drwxrwxr-x  2 joaquin joaquin 4096 Oct 10 11:58 docker
+drwxrwxr-x  2 joaquin joaquin 4096 Oct 10 11:58 kubernetes
+drwxrwxr-x  2 joaquin joaquin 4096 Oct 10 11:58 scripts
+drwxrwxr-x  2 joaquin joaquin 4096 Oct 10 11:58 terraform
+
+----- System Info -----
+OS:       GNU/Linux
+Kernel:   7.0.0-38-generic
+Hostname: joaquin-VirtualBox
+Uptime:   up 7 hours, 3 minutes
+
+==========================================
